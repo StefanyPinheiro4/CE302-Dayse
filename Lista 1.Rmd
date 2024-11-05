@@ -1,0 +1,149 @@
+---
+output:
+  word_document: default
+  html_document: default
+---
+# Lista de exercícios 1
+
+Isso é um parágrafo.
+
+Isso é outro parágrafo.
+
+## Destacar uma palavra em itálico:
+
+*Gabriel*
+
+Ou podemos fazer assim também.
+
+*Gabriel*
+
+### Destacar uma palavra em negrito:
+
+**Gabriel**
+
+Ou podemos fazer assim também.
+
+**Gabriel**
+
+### Combinando itálico e negrito em uma mesma palavra:
+
+***Gabriel***
+
+Ou podemos fazer assim também.
+
+***Gabriel***
+
+### Criando Uma lista não ordenada:
+
+Dia perfeito.
+
+-   Stefany
+-   Gabriel
+-   Netflix
+-   Pizza
+
+### Criando uma lista ordenada com 4 itens:
+
+Dia prefeito.
+
+1.  Stefany
+2.  Gabriel
+3.  Netflix
+4.  Pizza
+
+### Para criarmos um link usamos [Texto](URL):
+
+[Clique aqui para saber a verdade](https://www.google.com/search?q=significado+de+te+amo&sca_esv=2cd27abecf9b105c&sxsrf=ADLYWIJ0TUmdfZNVQ96U3awn_SotrwEF_A%3A1730760054695&ei=dk0pZ8aWKq_A5OUP_833mA0&ved=0ahUKEwjGqYHS38OJAxUvILkGHf_mHdMQ4dUDCA8&uact=5&oq=significado+de+te+amo&gs_lp=Egxnd3Mtd2l6LXNlcnAiFXNpZ25pZmljYWRvIGRlIHRlIGFtbzIKEAAYgAQYRhj_ATIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIWEAAYgAQYRhj_ARiXBRiMBRjdBNgBAUjEElDUAliBDnABeAGQAQCYAYEBoAH8AqoBAzAuM7gBA8gBAPgBAZgCBKACjgPCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICChAAGIAEGEMYigXCAgYQABgHGB7CAgwQABiABBgNGEYY_wHCAgcQABiABBgNwgIYEAAYgAQYDRhGGP8BGJcFGIwFGN0E2AEBmAMAiAYBkAYKugYGCAEQARgTkgcDMS4zoAeSGQ&sclient=gws-wiz-serp)
+
+### Inserindo uma imagem que esteja no mesmo diretório que o meu arquivo RMarkdown: {#Aqui}
+
+![O casal mais lindo que você vai ver hoje](WhatsApp%20Image%202024-11-04%20at%2019.53.55.jpeg)
+
+### Inserindo uma imagem da internet:
+
+![Onde eu queria estar](https://i.ytimg.com/vi/N9gF_QQE2E0/hqdefault.jpg)
+
+### Criando um bloco de sitação:
+
+> Rosas são vermelhas
+
+> Violetas são azuis
+
+> Seu olhar é lindo
+
+> E seu sorriso me seduz
+
+> (De Stefany Pinheiro. Para Gabriel Zwicker)
+
+### Criando uma linha divisória:
+
+------------------------------------------------------------------------
+
+### Criando uma lista alinhada:
+
+-   Gabriel:
+    -   É muito bom em lol e osu;
+    -   Fica bravinho quando está com fome;
+    -   Ama muito a Stefany e sua bunda;
+    -   Adora uma música eletronica;
+-   Stefany:
+    -   É muito ruim em lol e osu se comparada ao namorado;
+    -   Pensa em uma pessoa que gosta de pizza;
+    -   Ama muito o Gabriel e seus músculos;
+    -   Adora ler;
+
+### Criando um trecho de código online:
+
+O código para imprimir "Olá, Meu Bem!" em R é `print("Olá, Meu Bem!")`.
+
+### Inserindo um bloco de código com sintaxe em python:
+
+```{python}
+1 + 1
+1 - 1
+1 * 1
+1 / 1
+```
+
+### Criando um link para uma sessão dendo do próprio documento:
+
+Para ver o casal mais lindo do mundo [Clique aqui](#Aqui).
+
+### Criando uma tabela:
+
+| Nome    | Idade | Curiosidade   |
+|---------|-------|---------------|
+| Stefany | 20    | Ama o Gabriel |
+| Gabriel | 25    | Ama a Stefany |
+
+### Criando uma nota de roda pé:
+
+E para entender o relacionamento da Stefany e do Gabriel é preciso entender o que é uma guerra de cóssegas.[^1]
+
+[^1]: Sensação produzida em certas partes do corpo por uma fricção ou toque ligeiro que provoca geralmente riso ou movimentos pouco controlados, a guerra é ganha quando um dos participantes desiste.
+
+### Criando uma lista de tarefas:
+
+Para esta semana tenho que:
+
+-   [ ] Estudar para programação;
+-   [ ] Dormir na casa do Gabriel;
+-   [ ] Dar muitos beijinhos nele;
+
+### Criando uma sitação:
+
+"Uma coisa é certa, se o gabriel está com fome ele está bravinho, se ele está alimentado ele está feliz" [Stefany Pinheiro, 2024].
+
+### Incorporando um vídeo do YouTube:
+
+Aqui está uma das músicas que escutamos na rave.
+
+[Leyenda](https://youtu.be/uOzVn-HexoM?si=6BX6g_I7nfES3lBQ)
+
+### Criando um emoji:
+
+Aqui está um emoji que mando todos os dias para o Gab: ❤️
+
+### ![]()Colocar cores em palavras:
+
+Aqui está uma palavra na cor que eu gosto [Stefany]{style="color: pink;"} e outra na cor que o Gab gosta [Gabriel]{style="color: blue;"}.
